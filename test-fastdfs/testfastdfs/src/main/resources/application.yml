@@ -1,0 +1,21 @@
+#server:
+#  port: 8899
+#fdfs:
+## 连接Tracker服务器超时时间
+#  connect-timeout: 10000
+## storage服务器响应的超时时间
+#  so-timeout: 3000
+##  trakcer服务器的数量
+#  tracker-list:
+#   - 192.168.56.33:22122
+## 上传文件的最大的大小
+#  http:
+#    multipart:
+#      max-file-size: 10000000
+#spring:
+#  servlet:
+#    multipart:
+#      max-file-size: 10MB
+#      maxRequestSize: 10MB
+#  thymeleaf:
+#    prefix: classpath:/templates/
